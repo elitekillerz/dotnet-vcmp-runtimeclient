@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <Version>2.0.0</Version>
+    <Authors>Fleka</Authors>
+    <Company>EliteKillerz</Company>
+    <Title>VCMP (dotnet-vcmp runtime host) SDK client</Title>
+    <Description>Allows consumption of the VCMP SDK exposed through the dotnet-vcmp runtime host.</Description>
+    <Copyright>Copyright © 2018-2019  Fleka, EliteKillerz</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+</Project>
