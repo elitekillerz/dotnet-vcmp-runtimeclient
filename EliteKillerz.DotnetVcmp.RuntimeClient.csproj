@@ -9,12 +9,12 @@
   </PropertyGroup>
 
   <PropertyGroup>
-    <Version>2.0.0</Version>
+    <Version>2.0.1</Version>
     <Authors>Fleka</Authors>
     <Company>EliteKillerz</Company>
     <Title>VCMP (dotnet-vcmp runtime host) SDK client</Title>
     <Description>Allows consumption of the VCMP SDK exposed through the dotnet-vcmp runtime host.</Description>
-    <Copyright>Copyright © 2018-2019  Fleka, EliteKillerz</Copyright>
+    <Copyright>Copyright © 2018-2020  Fleka, EliteKillerz</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
   </PropertyGroup>
 
