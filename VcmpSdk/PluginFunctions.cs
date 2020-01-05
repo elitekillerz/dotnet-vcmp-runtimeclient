@@ -131,7 +131,7 @@ namespace EliteKillerz.DotnetVcmp.RuntimeClient.VcmpSdk
         public IsPlayerSpawnedDelegate IsPlayerSpawned;
         public ForcePlayerSpawnDelegate ForcePlayerSpawn;
         public ForcePlayerSelectDelegate ForcePlayerSelect;
-        public ForceAllSelectDelegate ForceAllSelectDelegate;
+        public ForceAllSelectDelegate ForceAllSelect;
         public IsPlayerTypingDelegate IsPlayerTyping;
 
         public GivePlayerMoneyDelegate GivePlayerMoney;
@@ -302,7 +302,7 @@ namespace EliteKillerz.DotnetVcmp.RuntimeClient.VcmpSdk
         public MoveObjectByDelegate MoveObjectBy;
         public SetObjectPositionDelegate SetObjectPosition;
         public GetObjectPositionDelegate GetObjectPosition;
-        public RotateObjectToDelegate RotateObjectToDelegate;
+        public RotateObjectToDelegate RotateObjectTo;
         public RotateObjectToEulerDelegate RotateObjectToEuler;
         public RotateObjectByDelegate RotateObjectBy;
         public RotateObjectByEulerDelegate RotateObjectByEuler;

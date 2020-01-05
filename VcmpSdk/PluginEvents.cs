@@ -27,7 +27,7 @@ namespace EliteKillerz.DotnetVcmp.RuntimeClient.VcmpSdk
 
         public OnPlayerRequestEnterVehicleDelegate OnPlayerRequestEnterVehicle;
         public OnPlayerEnterVehicleDelegate OnPlayerEnterVehicle;
-        public OnPlayerExitVehicleDelegate OnPlayerExitVehicleDelegate;
+        public OnPlayerExitVehicleDelegate OnPlayerExitVehicle;
 
         public OnPlayerNameChangeDelegate OnPlayerNameChange;
         public OnPlayerStateChangeDelegate OnPlayerStateChange;
