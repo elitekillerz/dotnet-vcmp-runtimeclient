@@ -13,8 +13,8 @@ namespace EliteKillerz.DotnetVcmp.RuntimeClient.VcmpSdk
         public OnServerFrameDelegate OnServerFrame;
 
         public OnPluginCommandDelegate OnPluginCommand;
-        public OnIncomingConnection OnIncomingConnection;
-        public OnClientScriptData OnClientScriptData;
+        public OnIncomingConnectionDelegate OnIncomingConnection;
+        public OnClientScriptDataDelegate OnClientScriptData;
 
         public OnPlayerConnectDelegate OnPlayerConnect;
         public OnPlayerDisconnectDelegate OnPlayerDisconnect;

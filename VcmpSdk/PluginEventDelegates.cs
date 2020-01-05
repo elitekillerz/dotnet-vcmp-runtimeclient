@@ -8,8 +8,8 @@ namespace EliteKillerz.DotnetVcmp.RuntimeClient.VcmpSdk.PluginEventDelegates
     public delegate void OnServerFrameDelegate(float elapsedTime);
 
     public delegate byte OnPluginCommandDelegate(uint commandIdentifier, [MarshalAs(UnmanagedType.LPStr)] string message);
-    public delegate byte OnIncomingConnection([MarshalAs(UnmanagedType.LPStr)] string name, IntPtr nameBufferSize, [MarshalAs(UnmanagedType.LPStr)] string userPassword, [MarshalAs(UnmanagedType.LPStr)] string ipAddress);
-    public delegate void OnClientScriptData(int playerID, IntPtr data, IntPtr size);
+    public delegate byte OnIncomingConnectionDelegate([MarshalAs(UnmanagedType.LPStr)] string name, IntPtr nameBufferSize, [MarshalAs(UnmanagedType.LPStr)] string userPassword, [MarshalAs(UnmanagedType.LPStr)] string ipAddress);
+    public delegate void OnClientScriptDataDelegate(int playerID, IntPtr data, IntPtr size);
 
     public delegate void OnPlayerConnectDelegate(int playerID);
     public delegate void OnPlayerDisconnectDelegate(int playerID, DisconnectReason disconnectReason);
