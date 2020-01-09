@@ -63,7 +63,7 @@ namespace EliteKillerz.DotnetVcmp.RuntimeClient.VcmpSdk
         public OnCheckpointExitedDelegate OnCheckpointExited;
 
         public OnEntityPoolChangeDelegate OnEntityPoolChange;
-        public OnServerPerformanceReportDelegate OnserverPerformanceReport;
+        public OnServerPerformanceReportDelegate OnServerPerformanceReport;
 
         public OnPlayerModuleListDelegate OnPlayerModuleList;
     }
